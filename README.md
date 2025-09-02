@@ -39,7 +39,7 @@ Drift scores (PSI for key features, monthly)
 
 ## REPOSITORY STRUCTURE
 
-credit-fraud-detection/
+```credit-fraud-detection/
 ├─ README.md
 ├─ LICENSE
 ├─ .gitignore
@@ -61,4 +61,6 @@ credit-fraud-detection/
 │  └─ utils/
 ├─ scripts/
 └─ sql/
+```
+
 
