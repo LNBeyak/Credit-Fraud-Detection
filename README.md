@@ -15,6 +15,7 @@ Fairness & bias: monitor disparate impact by geography/merchant category; no pro
 Concept drift: track model/feature drift monthly
 
 ## SUCCESS METRICS
+
 Both Model and Business will be reported.
 
 Model Metrics:
@@ -37,6 +38,7 @@ Throughput (txn/sec in batch tests)
 Drift scores (PSI for key features, monthly)
 
 ## REPOSITORY STRUCTURE
+
 credit-fraud-detection/
 ├─ README.md
 ├─ LICENSE
@@ -44,7 +46,7 @@ credit-fraud-detection/
 ├─ pyproject.toml              # or requirements.txt
 ├─ .env.example
 ├─ data/
-│  ├─ raw/                     # never commit PII; use git-crypt or keep local
+│  ├─ raw/                     
 │  ├─ interim/
 │  └─ processed/
 ├─ notebooks/
@@ -52,22 +54,11 @@ credit-fraud-detection/
 │  └─ 02_baseline_model.ipynb
 ├─ src/
 │  ├─ __init__.py
-│  ├─ data/                    # loaders, validators
-│  │  ├─ load.py
-│  │  └─ schema.py
-│  ├─ features/                # feature builders
-│  │  └─ build_features.py
-│  ├─ models/                  # train/infer, thresholding
-│  │  ├─ train.py
-│  │  └─ predict.py
+│  ├─ data/
+│  ├─ features/
+│  ├─ models/
 │  ├─ evaluation/
-│  │  └─ metrics.py
 │  └─ utils/
-│     └─ logger.py
 ├─ scripts/
-│  ├─ init_db.py               # create tables
-│  ├─ ingest_sample.py         # optional: load demo CSV
-│  └─ evaluate_baseline.py
 └─ sql/
-   ├─ create_tables.sql
-   └─ indices.sql
+
