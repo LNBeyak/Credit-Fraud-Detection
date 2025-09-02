@@ -1,7 +1,7 @@
 # Credit-Fraud-Detection
-##Project Summary: Reduce financial loss and investigation workload by detecting fraudulent transactions in near-real time using statistics, Python, R, ML, UX/survey, and SQL in a reproducable notebook.
+## Project Summary: Reduce financial loss and investigation workload by detecting fraudulent transactions in near-real time using statistics, Python, R, ML, UX/survey, and SQL in a reproducable notebook.
 
-##PROBLEM STATEMENT
+## PROBLEM STATEMENT
 Financial institutions face losses from fraudulent transactions and customer churn due to false positives. This project builds an imbalanced-classification system to predict whether a transaction is fraudulent at authorization time or not.
 
 Primary objective:
@@ -14,7 +14,7 @@ Latency: end-to-end scoring ≤ 150 ms p95 (local dev target)
 Fairness & bias: monitor disparate impact by geography/merchant category; no protected attributes used directly
 Concept drift: track model/feature drift monthly
 
-##SUCCESS METRICS
+## SUCCESS METRICS
 Both Model and Business will be reported.
 
 Model Metrics:
@@ -36,7 +36,7 @@ p95 scoring latency (ms)
 Throughput (txn/sec in batch tests)
 Drift scores (PSI for key features, monthly)
 
-##REPOSITORY STRUCTURE
+## REPOSITORY STRUCTURE
 credit-fraud-detection/
 ├─ README.md
 ├─ LICENSE
